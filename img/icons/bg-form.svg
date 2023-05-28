@@ -1,0 +1,10 @@
+<svg width="481" height="482" viewBox="0 0 481 482" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5">
+<rect x="240" y="480.859" width="240" height="240" transform="rotate(-180 240 480.859)" stroke="white"/>
+<rect x="480" y="480.859" width="240" height="240" transform="rotate(-180 480 480.859)" stroke="white"/>
+<rect x="240" y="240.859" width="240" height="240" transform="rotate(-180 240 240.859)" stroke="white"/>
+<path d="M239.5 360.359C239.5 426.079 186 479.359 120 479.359C54 479.359 0.5 426.079 0.5 360.359C0.5 294.639 54 241.359 120 241.359C186 241.359 239.5 294.639 239.5 360.359Z" stroke="white"/>
+<path d="M240 480.859C372.548 480.859 480 373.408 480 240.859" stroke="white"/>
+<path d="M480 240.859C480 108.311 372.548 0.859366 240 0.859366" stroke="white"/>
+</g>
+</svg>
