@@ -1,0 +1,16 @@
+<svg width="1442" height="722" viewBox="0 0 1442 722" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M241 1V721" stroke="#CFCFCF"/>
+<path d="M1 1V721" stroke="#CFCFCF"/>
+<path d="M1441 481L1 481" stroke="#CFCFCF"/>
+<path d="M1441 1L1 1" stroke="#CFCFCF"/>
+<path d="M1441 241L1 241" stroke="#CFCFCF"/>
+<path d="M1441 721L1 721" stroke="#CFCFCF"/>
+<path d="M481 1V721" stroke="#CFCFCF"/>
+<path d="M721 1V721" stroke="#CFCFCF"/>
+<path d="M961 1V721" stroke="#CFCFCF"/>
+<path d="M1201 1V721" stroke="#CFCFCF"/>
+<path d="M1441 1V721" stroke="#CFCFCF"/>
+<circle cx="481" cy="481" r="239.5" stroke="#CFCFCF"/>
+<path d="M1201 721C1068.45 721 961 613.548 961 481" stroke="#CFCFCF"/>
+<path d="M961 481C961 215.903 746.097 1 481 1C215.903 1 1 215.903 1 481" stroke="#CFCFCF"/>
+</svg>
