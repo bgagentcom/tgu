@@ -666,6 +666,8 @@
     $('.faq__title').click(function() {
       $(this).toggleClass('faq__title--open');
       $(this).next().slideToggle();
+      $(this).closest("li").siblings().find('.faq__dropdown').slideUp();
+      $(this).closest("li").siblings().find('.faq__title').removeClass('faq__title--open');
     })
   </script>
 </body>
