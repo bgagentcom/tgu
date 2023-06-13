@@ -1,0 +1,42 @@
+<svg width="375" height="657" viewBox="0 0 375 657" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1438_27747)">
+<rect y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
+</g>
+<path d="M0.5 187.5C0.5 84.2227 84.2228 0.5 187.5 0.5C290.777 0.5 374.5 84.2228 374.5 187.5V656.5H0.5V187.5Z" stroke="#CFCFCF"/>
+<defs>
+<clipPath id="clip0_1438_27747">
+<path d="M0 187.5C0 83.9466 83.9466 0 187.5 0C291.053 0 375 83.9466 375 187.5V657H0V187.5Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

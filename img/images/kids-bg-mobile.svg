@@ -1,0 +1,42 @@
+<svg width="375" height="565" viewBox="0 0 375 565" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1438_28063)">
+<rect y="-93.8242" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="-0.324219" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="93.6758" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="187.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="281.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="375.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="469.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect y="563.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="-93.8242" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="-0.324219" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="93.6758" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="187.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="281.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="375.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="469.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="93.75" y="563.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="-93.8242" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="-0.324219" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="93.6758" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="187.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="281.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="375.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="469.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="187.5" y="563.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="-93.8242" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="-0.324219" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="93.6758" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="187.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="281.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="375.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="469.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+<rect x="281.25" y="563.676" width="93.75" height="93.75" stroke="#CFCFCF"/>
+</g>
+<path d="M0.5 187.676C0.5 84.3985 84.2228 0.675781 187.5 0.675781C290.777 0.675781 374.5 84.3986 374.5 187.676V656.676H0.5V187.676Z" stroke="#CFCFCF"/>
+<defs>
+<clipPath id="clip0_1438_28063">
+<path d="M0 187.676C0 84.1224 83.9466 0.175781 187.5 0.175781C291.053 0.175781 375 84.1224 375 187.676V657.176H0V187.676Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>
