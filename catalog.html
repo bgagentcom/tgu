@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper header__wrap">
+      <a href="index.html" class="logo">
+        <img src="img/images/logo.svg" alt="logo">
+        <img src="img/images/logo-scroll.svg" alt="logo">
+      </a>
+      <ul class="header__menu">
+        <li class="header__item">
+          <a href="#" class="header__link">Каталог курсов</a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">Детская академия</a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">Компаниям</a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">О нас</a>
+        </li>
+      </ul>
+      <button type="button" class="header__btn"></button>
+    </div>
+  </header>
+  
+  <nav class="menu">
+    <div class="menu__wrap">
+      <button type="button" class="menu__close"></button>
+      <div class="logo">
+        <img src="img/images/logo.svg" alt="logo">
+      </div>
+      <ul class="menu__list menu__list--course">
+        <li class="menu__item">
+          <span>Курсы</span>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Программы</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Детская академия</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Видеолекции</a>
+        </li>
+      </ul>
+      <ul class="menu__list menu__list--univer">
+        <li class="menu__item">
+          <span>Университет</span>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Компаниям</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Новости</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">О нас</a>
+        </li>
+      </ul>
+      <div class="menu__contacts">
+        <a href="tel:+73822785679" class="contact-phone">8 (3822) 785-679</a>
+        <a href="mailto:nabor@ido.tsu.ru" class="contact-link">nabor@ido.tsu.ru</a>
+        <address class="contact-link">г. Томск, пр. Ленина, 36 корпус 2</address>
+        <ul class="social">
+          <li class="social__item">
+            <a href="#" class="social__link" title="В Контакте">ВК</a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link" title="Youtube">YT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu__info">
+        <span>ИДО ТГУ © 2023</span>
+        <a href="#">Соглашение об обработке персональных данных ТГУ</a>
+        <a href="#">Платёжные документы</a>
+        <a href="#">Дизайн и разработка</a>
+      </div>
+    </div>
+  </nav>
+  
+  <main>
+    <section class="screen">
+      <div class="wrapper">
+        <div class="screen__wrap">
+          <h1>Каталог курсов</h1>
+          <p class="screen__subtitle">Лидируем в области онлайн-обучения и дополнительного образования более 25 лет</p>
+        </div>
+        <div class="screen__blocks">
+          <div class="screen__block">
+            <p class="screen__value">4,8/5</p>
+            <p>средняя оценка куров</p>
+          </div>
+          <div class="screen__block">
+            <p class="screen__value">1,5 млн</p>
+            <p>слушателей онлайн-курсов</p>
+          </div>
+          <div class="screen__block">
+            <p class="screen__value">97%</p>
+            <p>нашли работу во&nbsp;время обучения</p>
+          </div>
+        </div>
+        <div id="screen" class="screen__bg">
+          <object type="image/svg+xml" data="img/images/catalog-desktop.svg" class="screen__desktop"></object>
+          <object type="image/svg+xml" data="img/images/catalog-tablet.svg" class="screen__tablet"></object>
+          <object type="image/svg+xml" data="img/images/catalog-mobile.svg" class="screen__mobile"></object>
+        </div>
+      </div>
+    </section>
+
+    <div class="tabs" id="tabs">
+      <div class="wrapper">
+        <ul class="tabs__title">
+          <li class="tabs__name"><a href="#tabs-1">Программы ДПО</a></li>
+          <li class="tabs__name"><a href="#tabs-2">Программы для школьников</a></li>
+        </ul>
+      </div>
+      <div class="tabs__field" id="tabs-1">
+        <div class="filter">
+          <div class="wrapper">
+            <div class="filter__wrap">
+              <div class="filter__block">
+                <button class="filter__btn">Направления <span>&darr;</span></button>
+                <div class="filter__dropdown">
+                  <ul class="filter__list">
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox01" class="filter__checkbox">
+                      <label for="checkbox01" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox02" class="filter__checkbox">
+                      <label for="checkbox02" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox03" class="filter__checkbox">
+                      <label for="checkbox03" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox04" class="filter__checkbox">
+                      <label for="checkbox04" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox05" class="filter__checkbox">
+                      <label for="checkbox05" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox06" class="filter__checkbox">
+                      <label for="checkbox06" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox07" class="filter__checkbox">
+                      <label for="checkbox07" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox08" class="filter__checkbox">
+                      <label for="checkbox08" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox09" class="filter__checkbox">
+                      <label for="checkbox09" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox010" class="filter__checkbox">
+                      <label for="checkbox010" class="filter__label">Дизайн</label>
+                    </li>
+                  </ul>
+                  <button type="button" class="filter__apply">Применить</button>
+                </div>
+              </div>
+              <div class="filter__block">
+                <button class="filter__btn">Формат <span>&darr;</span></button>
+                <div class="filter__dropdown">
+                  <ul class="filter__list">
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox11" class="filter__checkbox">
+                      <label for="checkbox11" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox12" class="filter__checkbox">
+                      <label for="checkbox12" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox13" class="filter__checkbox">
+                      <label for="checkbox13" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox14" class="filter__checkbox">
+                      <label for="checkbox14" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox15" class="filter__checkbox">
+                      <label for="checkbox15" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox16" class="filter__checkbox">
+                      <label for="checkbox16" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox17" class="filter__checkbox">
+                      <label for="checkbox17" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox18" class="filter__checkbox">
+                      <label for="checkbox18" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox19" class="filter__checkbox">
+                      <label for="checkbox19" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox110" class="filter__checkbox">
+                      <label for="checkbox110" class="filter__label">Дизайн</label>
+                    </li>
+                  </ul>
+                  <button type="button" class="filter__apply">Применить</button>
+                </div>
+              </div>
+              <div class="filter__block">
+                <button class="filter__btn">Стоимость <span>&darr;</span></button>
+                <div class="filter__dropdown">
+                  <ul class="filter__list">
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox21" class="filter__checkbox">
+                      <label for="checkbox21" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox22" class="filter__checkbox">
+                      <label for="checkbox22" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox23" class="filter__checkbox">
+                      <label for="checkbox23" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox24" class="filter__checkbox">
+                      <label for="checkbox24" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox25" class="filter__checkbox">
+                      <label for="checkbox25" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox26" class="filter__checkbox">
+                      <label for="checkbox26" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox27" class="filter__checkbox">
+                      <label for="checkbox27" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox28" class="filter__checkbox">
+                      <label for="checkbox28" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox29" class="filter__checkbox">
+                      <label for="checkbox29" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox210" class="filter__checkbox">
+                      <label for="checkbox210" class="filter__label">Дизайн</label>
+                    </li>
+                  </ul>
+                  <button type="button" class="filter__apply">Применить</button>
+                </div>
+              </div>
+            </div>
+            <div class="filter__selection">
+              <ul class="filter__options">
+                <li class="filter__option">
+                  <span>Видеолекции</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Маркетинг</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Видеолекции</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Платно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Бесплатно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Акция</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Маркетинг</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Видеолекции</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Платно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Бесплатно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Акция</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+              </ul>
+              <button type="button" class="filter__clear">Очистить</button>
+            </div>
+          </div>
+        </div>
+          
+        <section class="catalog catalog--course">
+          <div class="wrapper">
+            <h2>ближайшие Курсы</h2>
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-4.jpg" alt="1С-Программист">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">1С-Программист</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-5.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-1.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Подборка видеолекций</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-5.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn catalog__all">Загрузить ещё 25 курсов из 50</a>
+          </div>
+        </section>
+          
+        <section class="related related--course">
+          <div class="wrapper">
+            <p class="title">подборки видеолекций</p>
+            <ul class="related__list">
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Подборка видеолекций</p>
+                  <p class="related__title"><a href="#">Брендинг как инструмент развития бизнеса</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>5 видеолекций | 7 часов</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Подборка видеолекций</p>
+                  <p class="related__title"><a href="#">Брендинг как инструмент развития бизнеса</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                       <div class="related__label">акция</div>
+                       <div class="related__label related__label--free">Бесплатно</div>
+                   </div>
+                    <p>5 видеолекций | 7 часов</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Подборка видеолекций</p>
+                  <p class="related__title"><a href="#">Брендинг как инструмент развития бизнеса</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                    </div>
+                    <p>5 видеолекций | 7 часов</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Подборка видеолекций</p>
+                  <p class="related__title"><a href="#">Брендинг как инструмент развития бизнеса</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>5 видеолекций | 7 часов</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Подборка видеолекций</p>
+                  <p class="related__title"><a href="#">Брендинг как инструмент развития бизнеса</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                       <div class="related__label">акция</div>
+                       <div class="related__label related__label--free">Бесплатно</div>
+                   </div>
+                    <p>5 видеолекций | 7 часов</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Подборка видеолекций</p>
+                  <p class="related__title"><a href="#">Брендинг как инструмент развития бизнеса</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                    </div>
+                    <p>5 видеолекций | 7 часов</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn related__all">Загрузить ещё 6 видеолекций из 50</a>
+          </div>
+        </section>
+          
+        <section class="related related--white">
+          <div class="wrapper">
+            <p class="title">видеолекции</p>
+            <ul class="related__list">
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Видеолекция</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Видеолекция</p>
+                  <p class="related__title"><a href="#">Специализация Presentation Skills: Speechwriting, Slides and Delivery</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Видеолекция</p>
+                  <p class="related__title"><a href="#">Biological Diversity (Theories, Measures and Data sampling techniques)</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Видеолекция</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Видеолекция</p>
+                  <p class="related__title"><a href="#">Специализация Presentation Skills: Speechwriting, Slides and Delivery</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">Видеолекция</p>
+                  <p class="related__title"><a href="#">Biological Diversity (Theories, Measures and Data sampling techniques)</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn related__all">Загрузить ещё 6 видеолекций из 50</a>
+          </div>
+        </section>
+          
+        <section class="catalog catalog--course">
+          <div class="wrapper">
+            <h2>Профессиональная переподготовка</h2>
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-1.jpg" alt="1С-Программист">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">1С-Программист</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-2.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-1.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Подборка видеолекций</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-2.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn catalog__all">Загрузить ещё 25 курсов из 50</a>
+          </div>
+        </section>
+          
+        <section class="catalog catalog--course">
+          <div class="wrapper">
+            <h2>Повышение квалификации</h2>
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-4.jpg" alt="1С-Программист">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">1С-Программист</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-2.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-1.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-2.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Повышение квалификации</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">переподготовка</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn catalog__all">Загрузить ещё 25 курсов из 50</a>
+          </div>
+        </section>
+          
+        <section class="related related--white">
+          <div class="wrapper">
+            <p class="title">вебинары</p>
+            <ul class="related__list">
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn related__all">Загрузить ещё 6 видеолекций из 50</a>
+          </div>
+        </section>
+          
+        <section class="about about--catalog">
+          <div class="wrapper">
+            <div class="about__wrap">
+              <div class="about__title">
+                <h2>Программы<br>для бизнеса</h2>
+              </div>
+              <div class="about__info">
+                <div class="about__text">
+                  <p>Мы решаем практические бизнес-задачи предприятий путем повышения уровня квалификации сотрудников, их личной вовлеченности и внутренней мотивации</p>
+                </div>
+                <a href="#" class="btn about__btn">Узнать подробнее</a>
+              </div>
+            </div>
+          </div>
+        </section>
+          
+        <section class="brands">
+          <ul class="brands__list">
+            <li class="brands__item">
+              <img src="img/images/brand-1.svg" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-2.svg" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-3.svg" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-4.png" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-5.png" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-6.png" alt="">
+            </li>
+          </ul>
+        </section>
+
+        <section class="feedback feedback--help">
+          <div class="wrapper">
+            <div class="feedback__wrap">
+              <div class="feedback__title">
+                <p class="title-2">Нужна помощь с выбором программы? Мы с радостью ответим на все ваши вопросы</p>
+              </div>
+              <div class="feedback__form">
+                <form action="#" class="form">
+                  <input type="text" class="form__input" placeholder="Имя">
+                  <input type="tel" id="phone" class="form__input" placeholder="Телефон">
+                  <input type="email" class="form__input" placeholder="Email">
+                  <select class="form__select">
+                    <option value="" selected="" disabled="">Регион +</option>
+                    <option value="1">Регион 1</option>
+                    <option value="2">Регион 2</option>
+                    <option value="3">Регион 3</option>
+                  </select>
+                  <div class="form__check">
+                    <input type="checkbox" id="checkbox2" class="form__checkbox">
+                    <label for="checkbox2" class="form__label">Даю согласие на обработку <a href="#">персональных данных</a></label>
+                  </div>
+                  <button type="submit" class="btn-round btn-round--white form__btn"><span>Отправить</span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <figure class="feedback__img">
+            <object type="image/svg+xml" data="img/images/bg-form_animated.svg"></object>
+          </figure>
+        </section>
+      </div>
+        
+      <div class="tabs__field" id="tabs-2">
+        <div class="filter">
+          <div class="wrapper">
+            <div class="filter__wrap">
+              <div class="filter__block">
+                <button class="filter__btn">Направления <span>&darr;</span></button>
+                <div class="filter__dropdown">
+                  <ul class="filter__list">
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox01" class="filter__checkbox">
+                      <label for="checkbox01" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox02" class="filter__checkbox">
+                      <label for="checkbox02" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox03" class="filter__checkbox">
+                      <label for="checkbox03" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox04" class="filter__checkbox">
+                      <label for="checkbox04" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox05" class="filter__checkbox">
+                      <label for="checkbox05" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox06" class="filter__checkbox">
+                      <label for="checkbox06" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox07" class="filter__checkbox">
+                      <label for="checkbox07" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox08" class="filter__checkbox">
+                      <label for="checkbox08" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox09" class="filter__checkbox">
+                      <label for="checkbox09" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox010" class="filter__checkbox">
+                      <label for="checkbox010" class="filter__label">Дизайн</label>
+                    </li>
+                  </ul>
+                  <button type="button" class="filter__apply">Применить</button>
+                </div>
+              </div>
+              <div class="filter__block">
+                <button class="filter__btn">Формат <span>&darr;</span></button>
+                <div class="filter__dropdown">
+                  <ul class="filter__list">
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox11" class="filter__checkbox">
+                      <label for="checkbox11" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox12" class="filter__checkbox">
+                      <label for="checkbox12" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox13" class="filter__checkbox">
+                      <label for="checkbox13" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox14" class="filter__checkbox">
+                      <label for="checkbox14" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox15" class="filter__checkbox">
+                      <label for="checkbox15" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox16" class="filter__checkbox">
+                      <label for="checkbox16" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox17" class="filter__checkbox">
+                      <label for="checkbox17" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox18" class="filter__checkbox">
+                      <label for="checkbox18" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox19" class="filter__checkbox">
+                      <label for="checkbox19" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox110" class="filter__checkbox">
+                      <label for="checkbox110" class="filter__label">Дизайн</label>
+                    </li>
+                  </ul>
+                  <button type="button" class="filter__apply">Применить</button>
+                </div>
+              </div>
+              <div class="filter__block">
+                <button class="filter__btn">Стоимость <span>&darr;</span></button>
+                <div class="filter__dropdown">
+                  <ul class="filter__list">
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox21" class="filter__checkbox">
+                      <label for="checkbox21" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox22" class="filter__checkbox">
+                      <label for="checkbox22" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox23" class="filter__checkbox">
+                      <label for="checkbox23" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox24" class="filter__checkbox">
+                      <label for="checkbox24" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox25" class="filter__checkbox">
+                      <label for="checkbox25" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox26" class="filter__checkbox">
+                      <label for="checkbox26" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox27" class="filter__checkbox">
+                      <label for="checkbox27" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox28" class="filter__checkbox">
+                      <label for="checkbox28" class="filter__label">Дизайн</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox29" class="filter__checkbox">
+                      <label for="checkbox29" class="filter__label">Маркетинг</label>
+                    </li>
+                    <li class="filter__item">
+                      <input type="checkbox" id="checkbox210" class="filter__checkbox">
+                      <label for="checkbox210" class="filter__label">Дизайн</label>
+                    </li>
+                  </ul>
+                  <button type="button" class="filter__apply">Применить</button>
+                </div>
+              </div>
+            </div>
+            <div class="filter__selection">
+              <ul class="filter__options">
+                <li class="filter__option">
+                  <span>Видеолекции</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Маркетинг</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Видеолекции</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Платно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Бесплатно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Акция</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Программы для школьников</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Маркетинг</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Видеолекции</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Платно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Бесплатно</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+                <li class="filter__option">
+                  <span>Акция</span>
+                  <button type="button" class="filter__remove">&#10539;</button>
+                </li>
+              </ul>
+              <button type="button" class="filter__clear">Очистить</button>
+            </div>
+          </div>
+        </div>
+        
+        <section class="catalog catalog--academy">
+          <div class="wrapper">
+            <h2>ближайшие Курсы</h2>
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <a href="#" class="catalog__img catalog__img--oval">
+                  <img src="img/images/catalog-1.jpg" alt="1С-Программист">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Программа для школьников</p>
+                </div>
+                <p class="title-2"><a href="#">1С-Программист</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img catalog__img--circle">
+                  <img src="img/images/catalog-2.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__label">акция</div>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Программа для школьников</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__label">акция</div>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Программа для школьников</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img">
+                  <img src="img/images/catalog-1.jpg" alt="1С-Программист">
+                </a>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Программа для школьников</p>
+                </div>
+                <p class="title-2"><a href="#">1С-Программист</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img catalog__img--oval">
+                  <img src="img/images/catalog-2.jpg" alt="Графический дизайнер: старт в новой профессии">
+                </a>
+                <div class="catalog__label">акция</div>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Программа для школьников</p>
+                </div>
+                <p class="title-2"><a href="#">Графический дизайнер: старт в новой профессии</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+              <li class="catalog__item">
+                <a href="#" class="catalog__img catalog__img--circle">
+                  <img src="img/images/catalog-3.jpg" alt="Ландшафтный дизайн">
+                </a>
+                <div class="catalog__label">акция</div>
+                <div class="catalog__top">
+                  <div class="catalog__sublabel">Акция</div>
+                  <p class="catalog__subtitle">Программа для школьников</p>
+                </div>
+                <p class="title-2"><a href="#">Ландшафтный дизайн</a></p>
+                <div class="catalog__comment">
+                  <p>5 месяцев</p>
+                  <p>03 июня 2023</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn catalog__all">Загрузить ещё 25 курсов из 50</a>
+          </div>
+        </section>
+        
+        <section class="related related--white">
+          <div class="wrapper">
+            <p class="title">вебинары</p>
+            <ul class="related__list">
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+              <li class="related__item">
+                <div class="related__block">
+                  <p class="related__subtitle">вебинар</p>
+                  <p class="related__title"><a href="#">Социальные медиа: маркетинговые инструменты, сервисы и SMM-активности</a></p>
+                  <div class="related__bottom">
+                    <div class="related__labels">
+                      <div class="related__label">акция</div>
+                      <div class="related__label related__label--free">Бесплатно</div>
+                    </div>
+                    <p>1 час | 20 августа 2023</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn related__all">Загрузить ещё 6 видеолекций из 50</a>
+          </div>
+        </section>
+          
+        <section class="about about--catalog">
+          <div class="wrapper">
+            <div class="about__wrap">
+              <div class="about__title">
+                <h2>программы для образовательных учреждений</h2>
+              </div>
+              <div class="about__info">
+                <div class="about__text">
+                  <p>Мы решаем практические бизнес-задачи предприятий путем повышения уровня квалификации сотрудников, их личной вовлеченности и внутренней мотивации</p>
+                </div>
+                <a href="#" class="btn about__btn">Узнать подробнее</a>
+              </div>
+            </div>
+          </div>
+        </section>
+          
+        <section class="brands">
+          <ul class="brands__list">
+            <li class="brands__item">
+              <img src="img/images/brand-1.svg" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-2.svg" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-3.svg" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-4.png" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-5.png" alt="">
+            </li>
+            <li class="brands__item">
+              <img src="img/images/brand-6.png" alt="">
+            </li>
+          </ul>
+        </section>
+        
+        <section class="feedback feedback--cells feedback--bluecells">
+          <div class="wrapper">
+            <div class="feedback__wrap">
+              <div class="feedback__title">
+                <p class="title-2">Нужна помощь с выбором программы? Мы с радостью ответим на все ваши вопросы</p>
+              </div>
+              <div class="feedback__form">
+                <form action="#" class="form">
+                  <input type="text" class="form__input" placeholder="Имя">
+                  <input type="tel" id="phone" class="form__input" placeholder="Телефон">
+                  <input type="email" class="form__input" placeholder="Email">
+                  <select class="form__select">
+                    <option value="" selected="" disabled="">Регион +</option>
+                    <option value="1">Регион 1</option>
+                    <option value="2">Регион 2</option>
+                    <option value="3">Регион 3</option>
+                  </select>
+                  <div class="form__check">
+                    <input type="checkbox" id="checkbox2" class="form__checkbox">
+                    <label for="checkbox2" class="form__label">Даю согласие на обработку <a href="#">персональных данных</a></label>
+                  </div>
+                  <button type="submit" class="btn-round form__btn"><span>Отправить</span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__top">
+        <div class="footer__logo">
+          <img src="img/images/logo.svg" alt="logo">
+        </div>
+        <nav class="footer__nav footer__nav--course">
+          <p class="footer__title">Курсы</p>
+          <ul class="footer__list">
+            <li><a href="#">Программы</a></li>
+            <li><a href="#">Детская академия</a></li>
+            <li><a href="#">Видеолекции</a></li>
+            <li><a href="#">Новости</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav footer__nav--univer">
+          <p class="footer__title">Университет</p>
+          <ul class="footer__list">
+            <li><a href="#">Компаниям</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">О нас</a></li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <a href="tel:+73822785679" class="contact-phone">8 (3822) 785-679</a>
+          <a href="mailto:nabor@ido.tsu.ru" class="contact-link">nabor@ido.tsu.ru</a>
+          <address class="contact-link">г. Томск, пр. Ленина, 36 корпус 2</address>
+        </div>
+        <div class="footer__social">
+          <ul class="social">
+            <li class="social__item">
+              <a href="#" class="social__link" title="В Контакте">ВК</a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link" title="Youtube">YT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__column">
+          <span>ИДО ТГУ © 2023</span>
+        </div>
+        <div class="footer__column">
+          <a href="#">Соглашение об обработке персональных данных ТГУ</a>
+        </div>
+        <div class="footer__column">
+          <a href="#">Платёжные документы</a>
+        </div>
+        <div class="footer__column">
+          <a href="#">Дизайн и разработка</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+    //Tabs
+    $(function() {
+      $("#tabs").tabs();
+    });
+    
+    //Phone mask
+    $("#phone").mask("+7(999) 999-9999");
+    
+    //Select styles
+    $('select').niceSelect();
+    
+    //Filter
+    $('.filter__btn').click(function() {
+      $(this).next().slideToggle();
+      $(this).toggleClass('filter__btn--top');
+    })
+  </script>
+</body>
+</html>

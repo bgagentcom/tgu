@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -111,7 +112,7 @@
         </div>
         <p class="promo__title">онлайн-курсы в ТГУ</p>
         <h1>Классическое образование <span>в&nbsp;современном формате</span></h1>
-        <a href="#" class="btn-round promo__link"><span>Выбрать курс</span></a>
+        <a data-fancybox="" data-src="#step1" href="javascript:;" class="btn-round promo__link"><span>Выбрать курс</span></a>
       </div>
     </section>
     
@@ -642,9 +643,322 @@
     </div>
   </footer>
   
+  <!-- Modal windows -->
+  <!--   Step 1   -->
+  <div style="display: none;" id="step1" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <ol class="modal__steps">
+        <li class="modal__step modal__step--active">Контактные данные</li>
+        <li class="modal__step">Способ оплаты</li>
+        <li class="modal__step">Оплата</li>
+      </ol>
+      <div class="modal__form">
+        <p class="modal__subtitle">Контактные данные</p>
+        <form action="#" class="form">
+          <input type="text" class="form__input" placeholder="Фамилия">
+          <div class="form__line">
+            <input type="text" class="form__input" placeholder="Имя">
+            <input type="text" class="form__input" placeholder="Отчество">
+          </div>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Регион +</option>
+            <option value="1">Регион 1</option>
+            <option value="2">Регион 2</option>
+            <option value="3">Регион 3</option>
+          </select>
+          <div class="form__line">
+            <input type="tel" id="phone2" class="form__input" placeholder="Телефон">
+            <input type="email" class="form__input" placeholder="Почта">
+          </div>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Кто оплачивает +</option>
+            <option value="1">Физическое лицо</option>
+            <option value="2">Организация</option>
+          </select>
+          <div class="form__checks">
+            <div class="form__check">
+              <input type="checkbox" id="checkbox3" class="form__checkbox">
+              <label for="checkbox3" class="form__label">Даю согласие на обработку персональных данных</label>
+            </div>
+            <div class="form__check">
+              <input type="checkbox" id="checkbox4" class="form__checkbox">
+              <label for="checkbox4" class="form__label">Принимаю <a href="#">договор оферты</a></label>
+            </div>
+            <div class="form__check">
+              <input type="checkbox" id="checkbox5" class="form__checkbox">
+              <label for="checkbox5" class="form__label">Принимаю <a href="#">условия получения информационных рассылок</a></label>
+            </div>
+          </div>
+          <a data-fancybox="" data-src="#step2" href="javascript:;" class="btn form__submit">Продолжить</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--  End of step 1    -->
+      
+  <!--   Step 2   -->
+  <div style="display: none;" id="step2" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <ol class="modal__steps">
+        <li class="modal__step modal__step--done">Контактные данные</li>
+        <li class="modal__step modal__step--active">Способ оплаты</li>
+        <li class="modal__step">Оплата</li>
+      </ol>
+      <p class="modal__total">Оплата 10 000 ₽ за весь курс</p>
+      <div class="modal__form">
+        <p class="modal__subtitle">Способ оплаты</p>
+        <form action="#" class="form">
+          <div class="form__payments">
+            <input type="radio" name="radio" id="radio1" class="form__pay" checked="">
+            <label for="radio1" class="form__paylabel">Картой онлайн</label>
+            <input type="radio" name="radio" id="radio2" class="form__pay">
+            <label for="radio2" class="form__paylabel">Рассрочка 0%</label>
+          </div>
+          <div class="form__promocode">
+            <input type="text" class="form__input" placeholder="У вас есть промокод?">
+          </div>
+          <a data-fancybox="" data-src="#step3" href="javascript:;" class="btn form__submit">Оплатить 10 000 ₽</a>
+        </form>
+      </div>      
+    </div>
+  </div>
+  <!--  End of step 2    -->
+  
+  <!--  Step 2 repay   -->
+  <div style="display: none;" id="step3" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <ol class="modal__steps">
+        <li class="modal__step modal__step--done">Контактные данные</li>
+        <li class="modal__step modal__step--active">Способ оплаты</li>
+        <li class="modal__step">Оплата</li>
+      </ol>
+      <p class="modal__total">Оплата 3 месяца по 3 333 ₽ <span>Всего 10 000 рублей</span></p>
+      <div class="modal__form">
+        <p class="modal__subtitle">Способ оплаты</p>
+        <form action="#" class="form">
+          <div class="form__payments">
+            <input type="radio" name="radio" id="radio1" class="form__pay">
+            <label for="radio1" class="form__paylabel">Картой онлайн</label>
+            <input type="radio" name="radio" id="radio2" class="form__pay" checked="">
+            <label for="radio2" class="form__paylabel">Рассрочка 0%</label>
+          </div>
+          <p>Это рассрочка от ТГУ без процентов. Её можно оформить на 3 месяца под 0%</p>
+          <div class="form__promocode">
+            <input type="text" class="form__input" placeholder="У вас есть промокод?" value="PROMOKOD">
+            <button type="button" class="form__apply">Применить</button>
+          </div>
+          <div class="form__promocode form__promocode--ok">
+            <input type="text" class="form__input" placeholder="У вас есть промокод?" value="PROMOKOD">
+          </div>
+          <a data-fancybox="" data-src="#step4" href="javascript:;" class="btn form__submit">Оплатить 3 333 ₽</a>
+        </form>
+      </div>      
+    </div>
+    <div class="modal__error">
+      <button type="button" data-fancybox-close="" class="modal__close"></button>
+      <p>Что-то пошло не так. Попробуйте обновить страницу.</p>
+    </div>
+  </div>
+  <!--  End of step 2 repay   -->
+    
+  <!--  Final message    -->
+  <div style="display: none;" id="step4" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <ol class="modal__steps">
+        <li class="modal__step modal__step--done">Контактные данные</li>
+        <li class="modal__step modal__step--done">Способ оплаты</li>
+        <li class="modal__step modal__step--done">Оплата</li>
+      </ol>
+      <div class="modal__final">
+        <div class="modal__info">
+          <p class="modal__caption">Курс успешно оплачен!</p>
+          <p>Вам на почту отправлен чек и ссылка на регистрацию на платформе обучения. Проверьте папку спам, если не видите письмо.</p>
+          <p class="modal__comment">Если у вас остались, вопросы пишите нам на почту <a href="mailto:nabor@ido.tsu.ru">nabor@ido.tsu.ru</a></p>
+          <div class="modal__btns">
+            <a href="#" class="btn modal__btn">В каталог</a>
+            <a href="#" class="modal__link">На главную</a>
+          </div>
+        </div>
+        <div class="modal__bg">
+          <object type="image/svg+xml" data="img/images/form-desktop.svg" class="modal__desktop"></object>
+          <object type="image/svg+xml" data="img/images/form-tablet.svg" class="modal__tablet"></object>
+          <object type="image/svg+xml" data="img/images/form-mobile.svg" class="modal__mobile"></object>
+        </div>
+      </div>     
+    </div>
+  </div>
+  <!--  End of final message    -->
+  
+  <!--  Registration Step 1   -->
+  <div style="display: none;" id="reg1" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <div class="modal__form">
+        <p class="modal__number">Шаг 1</p>
+        <p class="modal__subtitle">Контактные данные</p>
+        <form action="#" class="form">
+          <input type="text" class="form__input" placeholder="Фамилия">
+          <div class="form__line">
+            <input type="text" class="form__input" placeholder="Имя">
+            <input type="text" class="form__input" placeholder="Отчество">
+          </div>
+          <div class="form__line">
+            <input type="tel" id="phone2" class="form__input" placeholder="Телефон">
+            <input type="email" class="form__input" placeholder="Почта">
+          </div>
+          <a data-fancybox="" data-src="#reg2" href="javascript:;" class="btn form__submit">Далее</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--  End of reg.step 1    -->
+  
+  <!--  Registration Step 2   -->
+  <div style="display: none;" id="reg2" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <div class="modal__form">
+        <p class="modal__number">Шаг 2</p>
+        <p class="modal__subtitle">Контактные данные</p>
+        <form action="#" class="form">
+          <div class="form__date">
+            <input class="form__datepicker" name="date" type="text" placeholder="Дата рождения">
+          </div>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Ваше гражданство +</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Ваш регион +</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Категория участника +</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Ваша текущая занятость +</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Срок регистрации безработным +</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <select class="form__select">
+            <option value="" selected="" disabled="">Ваше текущее образование +</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <div class="form__checks">
+            <div class="form__check">
+              <input type="checkbox" id="checkbox3" class="form__checkbox">
+              <label for="checkbox3" class="form__label">Даю согласие на обработку персональных данных</label>
+            </div>
+            <div class="form__check">
+              <input type="checkbox" id="checkbox4" class="form__checkbox">
+              <label for="checkbox4" class="form__label">Принимаю <a href="#">договор оферты</a></label>
+            </div>
+            <div class="form__check">
+              <input type="checkbox" id="checkbox5" class="form__checkbox">
+              <label for="checkbox5" class="form__label">Принимаю <a href="#">условия получения информационных рассылок</a></label>
+            </div>
+          </div>
+          <div class="form__bottom">
+            <a data-fancybox="" data-src="#reg3" href="javascript:;" class="btn btn--white form__back">Назад</a>
+            <a data-fancybox="" data-src="#reg4" href="javascript:;" class="btn form__send">Отправить</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--  End of reg.step 2    -->
+  
+  <!--  Registration Step 3   -->
+  <div style="display: none;" id="reg3" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <div class="modal__final">
+        <div class="modal__info">
+          <p class="modal__caption">Спасибо, что подали заявку</p>
+          <p>Ваш следующий шаг — подтверждение заявки на портале <a href="#">«Работа России»</a>. Пройдите данный этап как можно скорее, чтобы начать обучение в ближайшей группе. В инструкции мы подробно расскажем, как это сделать.</p>
+          <p class="modal__comment">Если что-то не получается, то подключитесь к чату поддержки программы и задайте вопрос! До встречи!</p>
+          <a href="#" class="btn modal__download" download="">Скачать инструкцию</a>
+          <a href="#" class="btn btn--white modal__chat">Чат поддержки</a>
+        </div>
+        <div class="modal__bg">
+          <object type="image/svg+xml" data="img/images/form-desktop.svg" class="modal__desktop"></object>
+          <object type="image/svg+xml" data="img/images/form-tablet.svg" class="modal__tablet"></object>
+          <object type="image/svg+xml" data="img/images/form-mobile.svg" class="modal__mobile"></object>
+        </div>
+      </div>     
+    </div>
+  </div>
+  <!--  End of reg.step 3    -->
+  
+  <!--  Registration error  -->
+  <div style="display: none;" id="reg4" class="modal modal--form">
+    <div class="modal__top">
+      <a href="#" class="modal__back">&larr;</a>
+    </div>
+    <div class="modal__body">
+      <p class="modal__title">Курс «1С-Программист»</p>
+      <div class="modal__final">
+        <div class="modal__info">
+          <p class="modal__caption">Не получилось отправить заявку</p>
+          <p>Возможно, у вас проблемы с интернетом. Попробуйте отправить заявку ещё раз.</p>
+          <a href="#" class="btn modal__again" download="">Попробовать ещё раз</a>
+        </div>
+        <div class="modal__bg">
+          <object type="image/svg+xml" data="img/images/form-desktop.svg" class="modal__desktop"></object>
+          <object type="image/svg+xml" data="img/images/form-tablet.svg" class="modal__tablet"></object>
+          <object type="image/svg+xml" data="img/images/form-mobile.svg" class="modal__mobile"></object>
+        </div>
+      </div>     
+    </div>
+  </div>
+  <!--  End of reg.error    -->
+  
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="js/datepicker-ru.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.nice-select.min.js"></script>
   <script src="js/script.js"></script>
@@ -680,9 +994,20 @@
     
     //Phone mask
     $("#phone").mask("+7(999) 999-9999");
+    $("#phone2").mask("+7(999) 999-9999");
     
     //Select styles
     $('select').niceSelect();
+    
+    //Calender
+    $(function() {
+      $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
+      $(".form__datepicker").datepicker();
+      $(".fancybox").fancybox({
+         openEffect  : 'none',
+         closeEffect : 'none'
+      });
+    });
   </script>
 </body>
 </html>
