@@ -1,0 +1,16 @@
+<svg width="375" height="377" viewBox="0 0 375 377" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M250 44.8433C273.901 44.8433 293.561 25.3703 293.561 1H312.5C312.5 35.3615 284.675 63.5 250 63.5V44.8433Z" stroke="#CFCFCF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M375 44.8433C351.099 44.8433 331.439 25.3703 331.439 1H312.5C312.5 35.3615 340.325 63.5 375 63.5V44.8433Z" stroke="#CFCFCF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M250 107.343C273.901 107.343 293.561 87.8703 293.561 63.5H312.5C312.5 97.8615 284.675 126 250 126V107.343Z" stroke="#CFCFCF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M375 107.343C351.099 107.343 331.439 87.8703 331.439 63.5H312.5C312.5 97.8615 340.325 126 375 126V107.343Z" stroke="#CFCFCF"/>
+<path d="M63.0024 63.7023L63.2047 63.5L63.0024 63.2977V2.20714L124.293 63.5L63.0024 124.793V63.7023ZM61.7905 63.5L0.5 124.793V2.20714L61.7905 63.5Z" stroke="#CFCFCF"/>
+<rect y="1" width="125" height="125" stroke="#CFCFCF"/>
+<rect y="126" width="125" height="125" stroke="#CFCFCF"/>
+<rect y="251" width="125" height="125" stroke="#CFCFCF"/>
+<rect x="125" y="1" width="125" height="125" stroke="#CFCFCF"/>
+<rect x="125" y="126" width="125" height="125" stroke="#CFCFCF"/>
+<rect x="125" y="251" width="125" height="125" stroke="#CFCFCF"/>
+<rect x="250" y="1" width="125" height="125" stroke="#CFCFCF"/>
+<rect x="250" y="126" width="125" height="125" stroke="#CFCFCF"/>
+<rect x="250" y="251" width="125" height="125" stroke="#CFCFCF"/>
+</svg>

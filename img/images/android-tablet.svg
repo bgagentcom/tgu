@@ -1,0 +1,21 @@
+<svg width="768" height="578" viewBox="0 0 768 578" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 385C0 173.143 171.923 1 384 1" stroke="#CFCFCF"/>
+<path d="M768 385C768 173.143 596.077 1 384 1" stroke="#CFCFCF"/>
+<path d="M576 385C576 278.961 490.486 193 385 193" stroke="#CFCFCF"/>
+<path d="M385 193C278.409 193 192 278.961 192 385" stroke="#CFCFCF"/>
+<circle cx="191.686" cy="345.682" r="25.2986" transform="rotate(-14.6992 191.686 345.682)" fill="#75CAC7" stroke="white" stroke-width="3.59715"/>
+<path d="M191.229 354.585L186.916 338.141L190.188 337.283L194.501 353.726L191.229 354.585ZM182.92 349.719L182.062 346.447L198.506 342.133L199.364 345.405L182.92 349.719Z" fill="white"/>
+<path d="M734.336 192.887C735.026 190.913 734.612 188.72 733.247 187.135L726.071 178.796C724.706 177.211 722.6 176.474 720.546 176.862L709.735 178.908C707.68 179.297 705.989 180.752 705.298 182.726L701.664 193.111C700.973 195.085 701.388 197.278 702.752 198.863L709.929 207.202C711.293 208.788 713.4 209.524 715.454 209.136L726.265 207.09C728.32 206.701 730.011 205.246 730.702 203.272L734.336 192.887Z" fill="#F6592E" stroke="white" stroke-width="2.60154"/>
+<path d="M717.814 198.334L717.274 194.557L714.5 197.187L713.213 195.684L716.244 193.336L712.565 192.258L713.213 190.389L716.757 191.824L715.88 188.11L717.806 187.746L718.346 191.523L721.121 188.893L722.407 190.396L719.377 192.744L723.055 193.822L722.407 195.691L718.863 194.257L719.74 197.97L717.814 198.334Z" fill="white"/>
+<rect y="1" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect y="193" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect y="385" width="384" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="192" y="1" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="192" y="193" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="384" y="1" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="384" y="193" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="384" y="385" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="576" y="1" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="576" y="193" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+<rect x="576" y="385" width="192" height="192" stroke="#CFCFCF" stroke-width="0.977099"/>
+</svg>

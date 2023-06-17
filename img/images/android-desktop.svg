@@ -1,0 +1,27 @@
+<svg width="1442" height="722" viewBox="0 0 1442 722" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="1" y="1" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="241" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="241" y="1" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="481" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="481" y="1" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="1" y="481" width="960" height="240" stroke="#CFCFCF"/>
+<rect x="721" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="241" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="1" y="481" width="960" height="240" stroke="#CFCFCF"/>
+<rect x="721" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="241" y="481" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="721" y="481" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="721" y="1" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="961" y="1" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="961" y="241" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="961" y="481" width="240" height="240" stroke="#CFCFCF"/>
+<rect x="1201" y="1" width="240" height="480" stroke="#CFCFCF"/>
+<rect x="1201" y="481" width="240" height="240" stroke="#CFCFCF"/>
+<path d="M1 481.5C1 216.403 215.903 1 481 1" stroke="#CFCFCF"/>
+<path d="M961 481.5C961 216.403 746.097 1 481 1" stroke="#CFCFCF"/>
+<path d="M721 481C721 348.452 613.548 241 481 241" stroke="#CFCFCF"/>
+<path d="M481 241C348.452 241 241 348.452 241 481" stroke="#CFCFCF"/>
+<circle cx="1201" cy="481" r="9" fill="#75CAC7" stroke="white" stroke-width="4"/>
+<circle cx="721" cy="65" r="9" fill="#75CAC7" stroke="white" stroke-width="4"/>
+</svg>
