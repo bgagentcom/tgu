@@ -1,50 +1,15 @@
-<svg width="1340" height="537" viewBox="0 0 1340 537" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1438_27519)">
-<path d="M1340 0H268.5C120.212 0 0 120.212 0 268.5V268.5C0 416.788 120.212 537 268.5 537H1340V0Z" fill="white"/>
-<path d="M1339.5 0.5H268.5C120.488 0.5 0.5 120.488 0.5 268.5C0.5 416.512 120.488 536.5 268.5 536.5H1339.5V0.5Z" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1340 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1340 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1340 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1206 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1206 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1206 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1072 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1072 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1072 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 938 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 938 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 938 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 804 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 804 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 804 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 670 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 670 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 670 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 536 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 536 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 536 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 402 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 402 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 402 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 268 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 268 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 268 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 134 0)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 134 134)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 134 268)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1340 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1206 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 1072 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 938 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 804 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 670 402)" stroke="#CFCFCF"/>
-<rect width="268" height="134" transform="matrix(-1 0 0 1 536 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 268 402)" stroke="#CFCFCF"/>
-<rect width="134" height="134" transform="matrix(-1 0 0 1 134 402)" stroke="#CFCFCF"/>
-</g>
-<defs>
-<clipPath id="clip0_1438_27519">
-<path d="M1340 0H268.5C120.212 0 0 120.212 0 268.5V268.5C0 416.788 120.212 537 268.5 537H1340V0Z" fill="white"/>
-</clipPath>
-</defs>
+<svg width="1343" height="537" viewBox="0 0 1343 537" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.5 402.5L1310 402.5" stroke="#CFCFCF"/>
+<line x1="3.5" y1="269.5" x2="1341.5" y2="269.5" stroke="#CFCFCF"/>
+<path d="M3.5 134.5L1309 134.5" stroke="#CFCFCF"/>
+<path d="M1208 500V37.999" stroke="#CFCFCF"/>
+<line x1="1075" y1="536" x2="1075" y2="1" stroke="#CFCFCF"/>
+<line x1="941" y1="536" x2="941" y2="1" stroke="#CFCFCF"/>
+<line x1="806" y1="536" x2="806" y2="1" stroke="#CFCFCF"/>
+<line x1="672" y1="536" x2="672" y2="1" stroke="#CFCFCF"/>
+<line x1="538" y1="536" x2="538" y2="1" stroke="#CFCFCF"/>
+<line x1="404" y1="536" x2="404" y2="1" stroke="#CFCFCF"/>
+<line x1="270" y1="536" x2="270" y2="1" stroke="#CFCFCF"/>
+<line x1="136" y1="536" x2="136" y2="1" stroke="#CFCFCF"/>
+<path d="M1075.5 1H1V536.5H1075.5C1165.83 532.333 1342 475 1342 269C1342 63.3685 1162.83 4.66667 1075.5 1Z" stroke="#CFCFCF"/>
 </svg>

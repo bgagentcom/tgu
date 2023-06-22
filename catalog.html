@@ -116,10 +116,15 @@
             <p>нашли работу во&nbsp;время обучения</p>
           </div>
         </div>
-        <div id="screen" class="screen__bg">
-          <object type="image/svg+xml" data="img/images/catalog-desktop.svg" class="screen__desktop"></object>
-          <object type="image/svg+xml" data="img/images/catalog-tablet.svg" class="screen__tablet"></object>
-          <object type="image/svg+xml" data="img/images/catalog-mobile.svg" class="screen__mobile"></object>
+        <div class="screen__bg">
+          <object type="image/svg+xml" data="img/images/catalog-desktop_animated.svg" class="screen__desktop"></object>
+          <object type="image/svg+xml" data="img/images/catalog-tablet_animated.svg" class="screen__tablet"></object>
+          <object type="image/svg+xml" data="img/images/catalog-mobile_animated.svg" class="screen__mobile"></object>
+        </div>
+        <div class="screen__bg screen__bg--kids">
+          <object type="image/svg+xml" data="img/images/catalog-kids-desktop_animated.svg" class="screen__desktop"></object>
+          <object type="image/svg+xml" data="img/images/catalog-kids-tablet_animated.svg" class="screen__tablet"></object>
+          <object type="image/svg+xml" data="img/images/catalog-kids-mobile_animated.svg" class="screen__mobile"></object>
         </div>
       </div>
     </section>
@@ -1174,10 +1179,10 @@
           </div>
         </div>
         
-        <section class="catalog catalog--academy">
+        <section class="catalog catalog--course">
           <div class="wrapper">
             <h2>ближайшие Курсы</h2>
-            <ul class="catalog__list">
+            <ul class="catalog__list catalog__list--labels">
               <li class="catalog__item">
                 <a href="#" class="catalog__img catalog__img--oval">
                   <img src="img/images/catalog-1.jpg" alt="1С-Программист">
@@ -1492,6 +1497,14 @@
     //Tabs
     $(function() {
       $("#tabs").tabs();
+      $("#tabs").on('tabsactivate', function () {
+        var activeTab = $("#tabs").tabs("option", "active");
+        if (activeTab == 1) {
+          $('.screen').addClass('screen--school');
+        } else {
+          $('.screen').removeClass('screen--school');
+        }
+      })
     });
     
     //Phone mask

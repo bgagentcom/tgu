@@ -1,17 +1,25 @@
-<svg width="1440" height="482" viewBox="0 0 1440 482" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="240.855" width="240" height="240" stroke="#CFCFCF"/>
-<rect y="0.855469" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="240" y="240.855" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="240" y="0.855469" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="480" y="240.855" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="480" y="0.855469" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="720" y="240.855" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="960" y="240.855" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="1200" y="240.855" width="240" height="240" stroke="#CFCFCF"/>
-<rect x="720" y="0.855469" width="720" height="240" stroke="#CFCFCF"/>
-<path d="M120.505 360.198L120.702 360L120.505 359.802V241.207L239.293 360L120.505 478.793V360.198ZM119.288 360L0.5 478.793V241.207L119.288 360Z" stroke="#CFCFCF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M480 325.179C525.889 325.179 563.636 287.791 563.636 241H600C600 306.974 546.576 361 480 361V325.179Z" stroke="#CFCFCF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M720 325.179C674.111 325.179 636.364 287.791 636.364 241H600C600 306.974 653.424 361 720 361V325.179Z" stroke="#CFCFCF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M480 445.179C525.889 445.179 563.636 407.791 563.636 361H600C600 426.974 546.576 481 480 481V445.179Z" stroke="#CFCFCF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M720 445.179C674.111 445.179 636.364 407.791 636.364 361H600C600 426.974 653.424 481 720 481V445.179Z" stroke="#CFCFCF"/>
+<svg width="1441" height="481" viewBox="0 0 1441 481" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 360L120 481" stroke="#CFCFCF"/>
+<path d="M120 241L240 360" stroke="#CFCFCF"/>
+<path d="M120 360L-2.98023e-08 481" stroke="#CFCFCF"/>
+<path d="M0 240L120 360" stroke="#CFCFCF"/>
+<path d="M120 240V481" stroke="#CFCFCF"/>
+<path d="M600 361C600 426.974 653.424 481 720 481" stroke="#CFCFCF"/>
+<path d="M600 361C600 426.974 546.576 481 480 481" stroke="#CFCFCF"/>
+<path d="M720 445.179C674.111 445.179 636.364 407.791 636.364 361H600" stroke="#CFCFCF"/>
+<path d="M480 445.179C525.889 445.179 563.636 407.791 563.636 361H600" stroke="#CFCFCF"/>
+<path d="M600 241C600 306.974 653.424 361 720 361" stroke="#CFCFCF"/>
+<path d="M600 241C600 306.974 546.576 361 480 361" stroke="#CFCFCF"/>
+<path d="M636.364 241C636.364 287.791 674.111 325.179 720 325.179" stroke="#CFCFCF"/>
+<path d="M563.636 241C563.636 287.791 525.889 325.179 480 325.179" stroke="#CFCFCF"/>
+<line x1="1440.5" x2="1440.5" y2="481.001" stroke="#CFCFCF"/>
+<line x1="1200.5" y1="241" x2="1200.5" y2="481" stroke="#CFCFCF"/>
+<line x1="960.5" y1="241" x2="960.5" y2="481" stroke="#CFCFCF"/>
+<line x1="720.5" x2="720.5" y2="481.001" stroke="#CFCFCF"/>
+<line x1="480.5" x2="480.5" y2="481.001" stroke="#CFCFCF"/>
+<line x1="239.992" x2="239.992" y2="481.001" stroke="#CFCFCF"/>
+<line x1="0.5" x2="0.5" y2="481.001" stroke="#CFCFCF"/>
+<line y1="0.5" x2="1440" y2="0.5" stroke="#CFCFCF"/>
+<line y1="240.5" x2="1440" y2="240.5" stroke="#CFCFCF"/>
+<line y1="480.5" x2="1440" y2="480.5" stroke="#CFCFCF"/>
 </svg>

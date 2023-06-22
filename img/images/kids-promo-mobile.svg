@@ -1,42 +1,12 @@
-<svg width="375" height="657" viewBox="0 0 375 657" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1438_27747)">
-<rect y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="93.75" y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="187.5" y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="-94" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="-0.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="93.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="187.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="281.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="375.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="469.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-<rect x="281.25" y="563.5" width="93.75" height="93.75" stroke="#CFCFCF"/>
-</g>
-<path d="M0.5 187.5C0.5 84.2227 84.2228 0.5 187.5 0.5C290.777 0.5 374.5 84.2228 374.5 187.5V656.5H0.5V187.5Z" stroke="#CFCFCF"/>
-<defs>
-<clipPath id="clip0_1438_27747">
-<path d="M0 187.5C0 83.9466 83.9466 0 187.5 0C291.053 0 375 83.9466 375 187.5V657H0V187.5Z" fill="white"/>
-</clipPath>
-</defs>
+<svg width="377" height="658" viewBox="0 0 377 658" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="281.75" y1="657.25" x2="281.75" y2="23.5001" stroke="#CFCFCF"/>
+<line x1="188.938" y1="657.25" x2="188.938" y2="1.00006" stroke="#CFCFCF"/>
+<line x1="94.25" y1="657.25" x2="94.25" y2="26.3126" stroke="#CFCFCF"/>
+<line x1="376" y1="563.891" x2="1.00017" y2="564.001" stroke="#CFCFCF"/>
+<line x1="376" y1="470.141" x2="1.00017" y2="470.251" stroke="#CFCFCF"/>
+<line x1="376" y1="376.391" x2="1.00017" y2="376.501" stroke="#CFCFCF"/>
+<line x1="376" y1="281.937" x2="0.999856" y2="281.813" stroke="#CFCFCF"/>
+<path d="M376 188.188L1 188.187" stroke="#CFCFCF"/>
+<line x1="349.75" y1="95.25" x2="29.125" y2="95.2494" stroke="#CFCFCF"/>
+<path d="M1 188.5L1 657.25H376V188.5C373.187 124.281 329.706 1.00006 188.675 1.00006C49.75 1.00006 1 133.656 1 188.5Z" stroke="#CFCFCF"/>
 </svg>
