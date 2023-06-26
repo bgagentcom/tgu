@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/nice-select.css">
@@ -591,6 +592,10 @@
                 <option value="2">Регион 2</option>
                 <option value="3">Регион 3</option>
               </select>
+              <input type="text" class="form__input" placeholder="Кто обращается?">
+              <div class="form__date form__date--blue">
+                <input class="form__datepicker" name="date" type="text" placeholder="Год рождения ребенка">
+              </div>
               <div class="form__check">
                 <input type="checkbox" id="checkbox2" class="form__checkbox">
                 <label for="checkbox2" class="form__label">Даю согласие на обработку <a href="#">персональных данных</a></label>
@@ -662,6 +667,8 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="js/datepicker-ru.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.nice-select.min.js"></script>
   <script src="js/script.js"></script>
@@ -714,6 +721,12 @@
       $(this).closest("li").siblings().find('.faq__dropdown').slideUp();
       $(this).closest("li").siblings().find('.faq__title').removeClass('faq__title--open');
     })
+    
+    //Calender
+    $(function() {
+      $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
+      $(".form__datepicker").datepicker();
+    });
   </script>
 </body>
 </html>

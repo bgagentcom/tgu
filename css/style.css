@@ -2821,6 +2821,34 @@ h4 {
   background-size: contain;
   pointer-events: none;
 }
+.form__date--blue::after {
+  background-image: url(../img/icons/calender-blue.svg);
+}
+.form__date--blue .form__datepicker {
+  color: #0072BC;
+  border-color: #0072BC;
+  font-size: 16px;
+}
+.form__date--blue .form__datepicker::-webkit-input-placeholder {
+  color: #0072BC;
+  opacity: 1;
+}
+.form__date--blue .form__datepicker::-moz-placeholder {
+  color: #0072BC;
+  opacity: 1;
+}
+.form__date--blue .form__datepicker:-ms-input-placeholder {
+  color: #0072BC;
+  opacity: 1;
+}
+.form__date--blue .form__datepicker::-ms-input-placeholder {
+  color: #0072BC;
+  opacity: 1;
+}
+.form__date--blue .form__datepicker::placeholder {
+  color: #0072BC;
+  opacity: 1;
+}
 #ui-datepicker-div {
   z-index: 99999 !important;
 }
@@ -3678,6 +3706,7 @@ h4 {
 }
 .diploma__link {
   position: absolute;
+  z-index: 10;
   top: 303px;
   left: 85px;
   font-size: 14px;
@@ -5156,11 +5185,6 @@ a.contact-link:active {
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
 }
-.faq__item:hover .faq__title::after,
-.faq__item:active .faq__title::after {
-  -webkit-filter: invert(28%) sepia(68%) saturate(3150%) hue-rotate(186deg) brightness(87%) contrast(101%);
-          filter: invert(28%) sepia(68%) saturate(3150%) hue-rotate(186deg) brightness(87%) contrast(101%);
-}
 .faq__title {
   position: relative;
   display: -webkit-box;
@@ -5209,8 +5233,6 @@ a.contact-link:active {
 .faq__title--open::after {
   -webkit-transform: rotate(45deg) translate(-50%, -50%);
           transform: rotate(45deg) translate(-50%, -50%);
-  -webkit-filter: invert(28%) sepia(68%) saturate(3150%) hue-rotate(186deg) brightness(87%) contrast(101%);
-          filter: invert(28%) sepia(68%) saturate(3150%) hue-rotate(186deg) brightness(87%) contrast(101%);
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
 }
@@ -5856,6 +5878,14 @@ a.contact-link:active {
 .related--video .related__labels {
   margin-bottom: 15px;
 }
+.related--video .related__label {
+  color: #F6F6F6;
+  background-color: #0072BC;
+}
+.related--video .related__label--free {
+  color: #0072BC;
+  background-color: #fff;
+}
 .related--course {
   padding-top: 0;
   padding-bottom: 0;
@@ -5924,6 +5954,14 @@ a.contact-link:active {
 }
 .related--white .related__labels {
   margin-bottom: 10px;
+}
+.related--white .related__label {
+  color: #fff;
+  background-color: #0072bc;
+}
+.related--white .related__label--free {
+  color: #0072bc;
+  background-color: #fff;
 }
 .related--white .related__title a {
   -webkit-transition: ease-out 0.3s;
@@ -6828,13 +6866,14 @@ blockquote::before {
 .academy::after {
   content: "";
   position: absolute;
+  z-index: 2;
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 375px;
   height: 480px;
-  background-image: url(../img/images/way-mobile.svg);
+  background-image: url(../img/images/way-mobile_animated.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -6903,7 +6942,7 @@ blockquote::before {
     height: 199px;
     bottom: 68px;
     top: auto;
-    background-image: url(../img/images/way-tablet.svg);
+    background-image: url(../img/images/way-tablet_animated.svg);
   }
   .academy__text {
     max-width: 395px;
@@ -6937,7 +6976,7 @@ blockquote::before {
     width: 1440px;
     height: 338px;
     bottom: 75px;
-    background-image: url(../img/images/way.svg);
+    background-image: url(../img/images/way_animated.svg);
   }
   .academy__tablet {
     display: none;
@@ -8799,6 +8838,17 @@ blockquote::before {
   padding-top: 15px;
   padding-bottom: 14px;
   text-decoration: none;
+}
+#tabs-2 .related--white .related__label {
+  padding: 5px 8px;
+  color: #F6F6F6;
+  background-color: #7641F5;
+  border-color: #7641F5;
+  border-radius: 25px;
+}
+#tabs-2 .related--white .related__label--free {
+  color: #7641F5;
+  background-color: #fff;
 }
 @media (min-width: 768px) {
   .tabs__title {
