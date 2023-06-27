@@ -686,7 +686,10 @@
     //Calender
     $(function() {
       $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
-      $(".form__datepicker").datepicker();
+      $(".form__datepicker").datepicker({
+        changeMonth: true,
+        changeYear: true
+      });
     });
   </script>
 </body>
